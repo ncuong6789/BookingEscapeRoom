@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Escape Room Aggregator - Sống Sót Hay Bỏ Mạng</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Creepster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div id="noise-overlay"></div>
+    
+    <header class="glass-header">
+      <div class="logo">
+        <span class="blood-text">ESCAPE</span> REALITY
+      </div>
+      <nav>
+        <button class="nav-btn active" data-brand="all">Tất cả</button>
+        <button class="nav-btn" data-brand="inside">Inside XCape</button>
+        <button class="nav-btn" data-brand="master">Master Escape</button>
+        <button class="nav-btn" data-brand="spirit">Spirit Escape</button>
+        <button class="nav-btn" data-brand="genesis">Genesis Escape</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h1 class="glitch" data-text="ĐỐI MẶT VỚI NỖI SỢ">ĐỐI MẶT VỚI NỖI SỢ</h1>
+          <p>Tìm kiếm và đặt lịch tại những căn phòng thoát hiểm rùng rợn nhất TP.HCM. Bạn có đủ can đảm?</p>
+          <button class="btn-primary" id="explore-btn">Khám Phá Ngay</button>
+        </div>
+      </section>
+
+      <section class="rooms-container" id="rooms-grid">
+        <!-- Room cards will be injected here via JS -->
+      </section>
+    </main>
+
+    <!-- Modal for Room Details & Booking -->
+    <div class="modal" id="room-modal">
+      <div class="modal-content glass-panel">
+        <span class="close-modal">&times;</span>
+        <div class="modal-body" id="modal-details">
+          <!-- Details injected here -->
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
