@@ -5,10 +5,12 @@ const roomsData = [
     "brand": "inside",
     "name": "Liên",
     "img": "https://insidexcape.vn/wp-content/uploads/2022/05/Cover-Lien.jpg",
-    "desc": "Với những tình tiết: Một căn phòng tại khu phố Khâm Thiên, Hà Nội. Một vụ mất tích bí ẩn, không dấu vết của một gia đình...",
+    "desc": "Đây là một vụ trọng án có thật ở khu phố Khâm Thiên những năm đầu của thập kỷ 90. Cả một gia đình gồm 2 vợ chồng và một người con gái đã đột ngột biến mất mà không để lại dấu vết gì. Trong một thời gian dài sau, cảnh sát liên tục nhận được lời cầu cứu của người dân xung quanh về những tiếng động lạ phát ra từ căn nhà như có người đang ở. Nhập vai vào 1 điều tra viên tài giỏi, bạn lên đường tìm hiểu vụ án kì bí này.",
     "players": "2-8",
-    "difficulty": "Rất Khó",
-    "price": "Từ 150K - 190K"
+    "difficulty": "Cơ Bản (Dễ)",
+    "price": "Từ 150K - 190K",
+    "categories": "Tâm linh, Trinh Thám, Kinh Dị",
+    "videoEmbed": '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Ffb.watch%2FcgYn7dwv5x%2F&show_text=0&width=560" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>'
   },
   {
     "id": "phong-xom-tro",
@@ -16,10 +18,12 @@ const roomsData = [
     "brand": "inside",
     "name": "Xóm Trọ",
     "img": "https://insidexcape.vn/wp-content/uploads/2022/05/Cover-Xom.jpg",
-    "desc": "XÓM TRỌ - Nghi thức bóng tối sắp bắt đầu bạn sẵn sàng chưa? Trong vai một nhóm pháp sư, bạn và đồng đội cùng nhận được lời báo mộng kỳ lạ.",
-    "players": "2-8",
+    "desc": "Từ lời gửi gắm của một gia đình, trong vai những nhà ngoại cảm, các bạn nhận lời giúp họ tìm kiếm tung tích cô con gái đã bỏ nhà đi từ lâu... Để có thể điều tra, nhóm quyết định xin ở lại 1 đêm tại dãy trọ này. Trong lúc tìm hiểu, cả nhóm tình cờ phát hiện ra bí mật động trời của chủ dãy trọ cũng như cô gái kia. Nhóm ngoại cảm phải tìm ra sự thật và trốn thoát.",
+    "players": "4-10",
     "difficulty": "Khó",
-    "price": "Từ 150K - 190K"
+    "price": "Từ 150K - 190K",
+    "categories": "Tâm linh, Trinh Thám, Kinh Dị",
+    "videoEmbed": '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Ffb.watch%2Fp9f6_8cxpd%2F&show_text=0&width=560" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>'
   },
   {
     "id": "phong-am-hon",
@@ -27,10 +31,12 @@ const roomsData = [
     "brand": "inside",
     "name": "Âm Hôn",
     "img": "https://insidexcape.vn/wp-content/uploads/2022/05/Cover-Am-hon.jpg",
-    "desc": "Cốt truyện dựa trên HỦ TỤC ĐÁM CƯỚI MA. Phòng chơi với DIỆN TÍCH LỚN NHẤT tái hiện căn nhà miền Tây những năm 1970. Với 3 nhân vật phụ.",
+    "desc": "Vào những năm 1970, tại 1 làng nọ ở miền Tây có 1 thầy lang nổi tiếng đang tìm dâu để gả cho con trai. Điều kiện duy nhất là các cô gái phải đi vừa 1 chiếc hài màu đỏ dính máu. Sự mất tích kỳ bí của 1 số cô gái khiến tổ điều tra nghi ngờ và quyết định đi đến tận nhà để tìm hiểu nguyên do...",
     "players": "4-10",
     "difficulty": "Kinh Hoàng",
-    "price": "Từ 150K - 190K"
+    "price": "Từ 150K - 190K",
+    "categories": "Kinh dị, Bí ẩn, Tâm linh, Trốn chạy, Kịch Tính",
+    "videoEmbed": '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Ffb.watch%2Fcg_Te5fVo6%2F&show_text=0&width=560" width="100%" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>'
   },
   {
     "id": "zone4",
@@ -38,10 +44,12 @@ const roomsData = [
     "brand": "inside",
     "name": "Zone 4",
     "img": "https://insidexcape.vn/wp-content/uploads/2023/01/Poster-Zone-04-full-1-683x1024.jpg",
-    "desc": "Zone 4 - Phòng Thí Nghiệm - Vào vai một nhóm thực tập sinh chuẩn bị tốt nghiệp. Những tưởng mọi thứ sẽ diễn ra tốt đẹp...",
+    "desc": "Vào vai một nhóm thực tập sinh chuẩn bị tốt nghiệp... Đột nhiên vị giáo sư bỗng dưng mất tích không lý do. Càng tìm kiếm, các bạn càng tìm ra bí ẩn kinh hoàng ẩn sâu trong khu nghiên cứu. Những gầm gừ cuối hành lang, phòng thí nghiệm này giấu đi sự thật đen tối nào?",
     "players": "4-10",
     "difficulty": "Khó",
-    "price": "Từ 150K - 190K"
+    "price": "Từ 150K - 190K",
+    "categories": "Kinh dị, Trốn chạy, Kịch Tính",
+    "videoEmbed": '<iframe src="https://insidexcape.vn/zone4/" width="100%" height="450" style="border:none;overflow:scroll" scrolling="yes" frameborder="0"></iframe>'
   },
   {
     "id": "zone5",
@@ -49,10 +57,12 @@ const roomsData = [
     "brand": "inside",
     "name": "Đêm Kinh Hoàng",
     "img": "https://insidexcape.vn/wp-content/uploads/2023/06/350119583_1424949865013641_4760705781631182338_n.jpg",
-    "desc": "Đêm Kinh Hoàng INSIDE XCAPE ROOM. Thoát khỏi khu vực cấm địa đầy rẫy nguy hiểm.",
-    "players": "4-12",
+    "desc": "Mọi người là những kẻ đi ăn trộm vặt... Nhờ thông tin về cửa hàng vàng mã có nhiều tài sản cất trong két sắt phòng khách, các bạn đã chọn hôm nay, lúc mọi người ngủ say, đột nhập. Nhưng mọi thứ không dễ dàng khi có những thế lực tà ác đang lẩn trốn...",
+    "players": "4-10",
     "difficulty": "Kinh Hoàng",
-    "price": "Từ 150K - 190K"
+    "price": "Từ 150K - 190K",
+    "categories": "Hồi Hộp, Lẩn Trốn, Truy Tìm",
+    "videoEmbed": '<iframe width="100%" height="500" src="https://www.tiktok.com/embed/v2/7325049305675468033" style="border:none; border-radius: 8px;" frameborder="0"></iframe>'
   },
   {
     "id": "di-chung",
@@ -238,9 +248,12 @@ function openModal(room) {
       <h2 class="glitch" data-text="${room.name}" style="position:absolute; bottom:20px; left:20px; font-size:3rem; margin:0;">${room.name}</h2>
     </div>
     <div style="padding: 2rem;">
-      <p style="color: var(--blood-red); text-transform:uppercase; font-weight:bold; margin-bottom: 1rem;">${brandNames[room.brand]}</p>
+      <p style="color: var(--blood-red); text-transform:uppercase; font-weight:bold; margin-bottom: 0.5rem;">${brandNames[room.brand]}</p>
+      ${room.categories ? `<p style="margin-bottom: 0.5rem; font-size: 0.95rem; color: #ffeb3b; font-weight: 600;">🦇 Thể loại: ${room.categories}</p>` : ''}
       <p style="margin-bottom: 1.5rem; font-size: 1.1rem; color: #ccc;">${room.desc}</p>
       
+      ${room.videoEmbed ? `<div class="video-container" style="margin-bottom: 2rem; border-radius: 8px; overflow: hidden; border: 1px solid #333; background: #000; box-shadow: 0 4px 15px rgba(0,0,0,0.5);">${room.videoEmbed}</div>` : ''}
+
       <div class="room-stats-grid">
         <div class="stat-box">
           <i class="stat-icon">👥</i>
